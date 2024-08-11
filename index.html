@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <title>Chocolate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+
+    <!--Header-->
+
+<header class="header">
+    <div class="container header-container">
+
+    <a class="header-logo-link" href="./index.html"> 
+       <span class="header-logo-italic">FOXY</span>  LADY
+    <img class="header-img" src="/img/home/photo_5229069318367599110_y-2.jpg" width="24" height="24" alt="foxy icon" />
+</a>
+
+<button
+type="button"
+class="header-menu-link-mob"
+id="open-mobile-menu"
+name="Open mobile menu"
+>Menu
+<svg class="header-menu-svg" width="28" height="28">
+  <use href=""></use>
+</svg>
+</button>
+<!--Header menu-->
+
+<div class="header-desk">
+<nav class="header-navigation">
+   <ul class="header-menu-list">
+<li class="header-menu-item"> 
+    <a class="header-menu-link" href="">Home</a>
+</li>
+<li class="header-menu-item">
+    <a class="header-menu-link" href="#made">Як ми створюємо?</a>
+</li>
+<li class="header-menu-item">
+    <a class="header-menu-link" href="#loved">Відгуки</a>
+</li>
+   </ul>
+</nav>
+<!--Header icons list-->
+<ul class="header-list">
+
+    <li class="header-list-item"> 
+        <a class="header-list-link" 
+        href="" target="_blank" 
+        rel="noopener noreferrer">instagram
+    </a>
+    </li>
+
+    <li class="header-list-item"> 
+        <a class="header-list-link" 
+        href="" target="_blank" 
+        rel="noopener noreferrer">telegram
+    </a>
+    </li>
+
+</ul>
+</div>
+</div>
+<!--mobile menu-->
+<div class="mobile-menu" id="mobile-menu">
+    <div class="mob-menu-wrap">
+      <button
+        type="button"
+        class="close-mobile-menu"
+        id="close-mobile-menu"
+        name="Close mobile menu"
+      >Close
+        <svg class="close-btn-icon" width="28" height="28">
+          <use href=""></use>
+        </svg>
+      </button>
+    
+
+    <nav class="mob-nav">
+      <ul class="mob-nav-list">
+        <li class="mob-nav-list-item">
+          <a href="" class="mob-nav-list-link">Home</a>
+        </li>
+        <li class="mob-nav-list-item">
+          <a href="#made" class="mob-nav-list-link"> Як ми створюємо?</a>
+        </li>
+        <li class="mob-nav-list-item">
+          <a href="#loved" class="mob-nav-list-link">Відгуки</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="header-icons-list-mob">
+
+        <li class="header-list-item-mob"> 
+            <a class="header-list-link-mob" 
+            href="" target="_blank" 
+            rel="noopener noreferrer">
+         <svg width="24" height="24" class="header-soc-link-mob">
+            <use href=""></use>
+        </svg>
+        </a>
+        </li>
+    
+        <li class="header-list-item-mob"> 
+            <a class="header-list-link-mob" 
+            href="" target="_blank" 
+            rel="noopener noreferrer">
+            <svg width="24" height="24" class="header-soc-link-mob">
+                <use href=""></use>
+            </svg>
+        </a>
+        </li>
+    
+        <li class="header-list-item-mob"> 
+            <a class="header-list-link-mob" 
+            href="" target="_blank" 
+            rel="noopener noreferrer">
+            <svg width="24" height="24" class="header-soc-link-mob">
+                <use href=""></use>
+            </svg>
+        </a>
+        </li>
+    
+    </ul>
+</div>
+  </div>
+</header>
+
+<!--------------------Main------------>
+<main class="main">
+
+        <!----Banner Slider-->
+        <div class="containet">
+        <section class="banner-slider">
+            <ul id="adaptive"> <!---video 92-->
+                <li><img src="./img/home/foxy_2.jpg" alt=""></li>
+                <li><img src="./img/home/foxy_3.jpg" alt=""></li>
+                <li><img src="./img/home/foxy_4.jpg" alt=""></li>
+            </ul>
+        </section>
+        </div>
+        <!----Banner Slider-->
+    <!--Section-->
+
+    <section class="hero" >
+        <div class="container hero-container">
+        <h1 class="hero-title">
+            Насолоджуватись життям<br /> 
+            та радіти дрібницям приємніше у вишуканій білизні!
+        </h1>
+      <div class="hero-buttons">
+        <div class="hero-buttons-right">
+        <a href="#footer" class="hero-buy-btn">Купити</a>
+        <a href="#made" class="hero-made-btn">Як ми створюємо?</a>
+      </div>
+      <!---  <div class="hero-down-block">
+        <a href="" class="hero-down-btn">Вниз</a>
+        <a class="hero-down-link" 
+            href="#footer" target="" 
+            rel="noopener noreferrer">
+         <svg width="16" height="16" class="hero-down-svg">
+            <use href="./images/symbol-defs.svg#icon-down"></use>
+        </svg>
+        </a>
+      </div>-->
+    </div> 
+    </div>
+    </section>
+
+    <!--Section1-->
+
+    <section class="features">
+<div class="container features-container">
+        <h2 class="visually-hidden">features</h2>
+<ul class="features-list">
+    <li class="features-item">
+        <h3 class="features-subtitle">Ексклюзивний дизайн</h3>
+        <p class="feature-item-text"> Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+    </li>
+    <li class="features-item">
+        <h3 class="features-subtitle">Якісний матеріал</h3>
+        <p class="feature-item-text">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
+    </li>
+    <li class="features-item">
+        <h3 class="features-subtitle">Власне виробництво</h3>
+        <p class="feature-item-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
+    </li>
+</ul>
+</div>
+</section>
+
+<!--Section2-->
+
+<section class="taste" id="models">
+<div class="container taste-container">
+    <h2 class="taste-title">ЦЕ ВСЕ ДОДАЄ  <span>СМАКУ</span> В ТВОЄ ЖИТТЯ</h2>
+    <p class="taste-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
+<ul class="taste-list">
+    <li class="taste-item">
+
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_1.jpg" alt="STRING1"/>
+        <h3 class="taste-subtitle"> DARK TOM&JERRY</h3>
+    </div>
+
+    <div class="card__back">
+<h3 class="taste-back-title">DARK TOM&JERRY</h3>
+<div class="taste-buttons">
+    <button type="button" class="taste-right-btn">трусики</button>
+    <a href="" class="taste-benefits-btn">матеріал</a>
+  </div>
+  <img class="taste-img" src="img/string/string_back_1.jpg" alt="STRING1"/>
+    </div>
+
+    </li>
+    <li class="taste-item">
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_2.jpg" alt="Dark_Mikkky"/>
+        <h3 class="taste-subtitle">Dark Mikky</h3>
+        </div>
+
+        <div class="card__back">
+            <h3 class="taste-back-title">Dark Mikky</h3>
+            <div class="taste-buttons">
+                <button type="button" class="taste-right-btn">трусики</button>
+                <a href="" class="taste-benefits-btn">матеріал</a>
+              </div>
+              <img class="taste-img" src="img/string/string_back_2.jpg" alt="Dark_Mikkky"/>
+                </div>
+
+    </li>
+    <li class="taste-item">
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_3.jpg" alt="CATS"/>
+        <h3 class="taste-subtitle">CATS</h3>
+        </div>
+
+        <div class="card__back">
+            <h3 class="taste-back-title">CATS</h3>
+            <div class="taste-buttons">
+                <button type="button" class="taste-right-btn">трусики</button>
+                <a href="" class="taste-benefits-btn">матеріал</a>
+              </div>
+              <img class="taste-img" src="img/string/string_front_3.jpg" alt="CATS"/>
+                </div>
+
+    </li>
+    <li class="taste-item">
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_4.jpg" alt="CATS_COMPLECT"/>
+        <h3 class="taste-subtitle">CETS COMPLECT</h3>
+        </div>
+
+        <div class="card__back">
+            <h3 class="taste-back-title">CATS COMPLECT</h3>
+            <div class="taste-buttons">
+                <button type="button" class="taste-right-btn">комплект</button>
+                <a href="" class="taste-benefits-btn">матеріал</a>
+              </div>
+              <img class="taste-img" src="img/string/sting_back_4.jpg" alt="CATS_COMPLECT"/>
+                </div>
+
+    </li>
+    <li class="taste-item">
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_5.jpg" alt="MIKKY_COMPLECT"/>
+        <h3 class="taste-subtitle">MIKKY COMPLEKT</h3>
+        </div>
+
+    <div class="card__back">
+<h3 class="taste-back-title">MIKKY</h3>
+<div class="taste-buttons">
+    <button type="button" class="taste-right-btn">комплект</button>
+    <a href="" class="taste-benefits-btn">матеріал</a>
+  </div>
+  <img class="taste-img" src="img/string/string_front_5.jpg" alt="MIKKY_COMPLECT"/>
+    </div>
+
+    </li>
+    <li class="taste-item">
+
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_1.jpg" alt="STRING1"/>
+        <h3 class="taste-subtitle"> DARK TOM&JERRY</h3>
+    </div>
+
+    <div class="card__back">
+<h3 class="taste-back-title">DARK TOM&JERRY</h3>
+<div class="taste-buttons">
+    <button type="button" class="taste-right-btn">трусики</button>
+    <a href="" class="taste-benefits-btn">матеріал</a>
+  </div>
+  <img class="taste-img" src="img/string/string_back_1.jpg" alt="STRING1"/>
+    </div>
+
+    </li>
+    <li class="taste-item">
+        <div class="card__front">
+        <img class="taste-img" src="img/string/string_front_2.jpg" alt="Dark_Mikkky"/>
+        <h3 class="taste-subtitle">Dark Mikky</h3>
+        </div>
+
+        <div class="card__back">
+            <h3 class="taste-back-title">Dark Mikky</h3>
+            <div class="taste-buttons">
+                <button type="button" class="taste-right-btn">трусики</button>
+                <a href="" class="taste-benefits-btn">матеріал</a>
+              </div>
+              <img class="taste-img" src="img/string/string_back_2.jpg" alt="Dark_Mikkky"/>
+                </div>
+
+    </li>
+</ul>
+</div>
+</section>
+
+<!--Section3-->
+
+<section class="made" id="made">
+<div class="container made-container">
+<h2 class="made-title"> Як ми  <span>СТВОРЮЄМО?</span></h2>
+<div class="made-wrap">
+        <img class="made-img" src="img/home/hero.png" alt="dark_chocolate"/>
+        <div class="made-content">
+        <h3 class="made-subtitle">Твоя ексклюзивна білизна щодня - це те що додає тобі впевненості у власному успіху</h3>
+        <ul class="made-list">
+            <li class="made-item">
+                <p class="made-item-text">Спочатку ти отримаєш інструкцію як правильно зняти свої мірки.</p>
+            </li>
+            <li class="made-item">
+                <p class="made-item-text">Потім ти обираєш бажану модель, що підкреслить твою власну красиву форму.</p>
+            </li>
+            <li class="made-item">
+                <p class="made-item-text">Наступним кроком обираєш матеріал, який максимально комфортно відчуватимеш на тілі.</p>
+            </li>
+            <li class="made-item">
+                <p class="made-item-text">Обираєш кольори, щоб на кожен день і настрій був відповідний.</p>
+            </li>
+            <li class="made-item">
+                <p class="made-item-text">Чекаеш поки в нашій майстерні відбувається магія.</p>
+            </li>
+            </ul>
+            </div>
+
+</div>
+</div>
+</section>
+
+<!--Section4-->
+
+<section class="products">
+<div class="container products-conyainer">
+    <h2 class="products-title">Доступні  <span>МАТЕРІАЛИ</span></h2>
+    <ul class="products-list">
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_8.jpg" alt="ORANGE"/>
+            <h3 class="products-subtitle">ORANGE</h3>
+            <p class="products-item-text">Dark chocolate</p>
+            <button type="button" class="products-item-btn">45 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_7.jpg" alt="APPLE&CRANBERRY"/>
+            <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
+            <p class="products-item-text">Milk chocolate</p>
+            <button type="button" class="products-item-btn">50 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_6.jpg" alt="lime&sea salt"/>
+            <h3 class="products-subtitle">lime&sea salt</h3>
+            <p class="products-item-text">Dark chocolate</p>
+            <button type="button" class="products-item-btn">66 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_5.jpg" alt="PINEAPPLE"/>
+            <h3 class="products-subtitle">PINEAPPLE</h3>
+            <p class="products-item-text">Dark chocolate</p>
+            <button type="button" class="products-item-btn">54 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_4.jpg" alt="Classic"/>
+            <h3 class="products-subtitle">Classic</h3>
+            <p class="products-item-text">Milk chocolate</p>
+            <button type="button" class="products-item-btn">45 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_3.jpg" alt="Honey"/>
+            <h3 class="products-subtitle">Honey</h3>
+            <p class="products-item-text">Milk chocolate</p>
+            <button type="button" class="products-item-btn">50 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_2.jpg" alt="Roasted fruits"/>
+            <h3 class="products-subtitle">Roasted fruits</h3>
+            <p class="products-item-text">Dark chocolate</p>
+            <button type="button" class="products-item-btn">66 UAH</button>
+        </li>
+        <li class="product-item">
+            <img class="product-img" src="img/material/material_1.jpg" alt="Classic2"/>
+            <h3 class="products-subtitle">Classic</h3>
+            <p class="products-item-text">White chocolate</p>
+            <button type="button" class="products-item-btn">54 UAH</button>
+        </li>
+    </ul>
+</div>
+</section>
+
+<!--Section5-->
+
+<section class="sellers" id="sellers">
+<div class="container sellers-container">
+<h2 class="sellers-title"><span>TOP</span> SELLERS</h2>
+<ul class="sellers-list">
+    <li class="sellers-list-item">
+
+<div class="sellers-cover-wrap">
+        <img class="sellers-img" src="img/sellers/sellers_1.jpg" alt="CHOCOLATE WITH NUTS"/>
+      <div class="sellers-text-wrap">
+      <p class="sellers-cover-text">Chocolate with nuts is a delectable combination that brings together the smoothness of chocolate and the crunchiness of nuts. Whether it's milk chocolate, dark chocolate, or white chocolate, the addition of nuts adds a whole new dimension of flavor and texture.
+      </p>
+      </div>
+</div>
+
+        <div class="sellers-subtitle-wrap">
+        <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
+       </div>
+    </li>
+    <li class="sellers-list-item">
+        <div class="sellers-cover-wrap">
+        <img class="sellers-img" src="img/sellers/sellers_2.jpg" alt="CHOCOLATE WITH FRUITS"/>
+        <div class="sellers-text-wrap">
+            <p class="sellers-cover-text">
+                Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.
+            </p>
+            </div>
+      </div>
+        <div class="sellers-subtitle-wrap" >
+        <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
+       </div>
+    </li>
+    <li class="sellers-list-item">
+        <div class="sellers-cover-wrap">
+        <img class="sellers-img" src="img/sellers/sellers_3.jpg" alt="DARK CHOCOLATE"/>
+        <div class="sellers-text-wrap">
+            <p class="sellers-cover-text">
+                Dark chocolate is a rich and indulgent treat that is beloved by many chocolate enthusiasts. It is made from cocoa beans, which are roasted, ground, and then processed to produce chocolate liquor. Dark chocolate contains a higher percentage of cocoa solids compared to milk chocolate. 
+            </p>
+            </div>
+      </div>
+        <div class="sellers-subtitle-wrap" >
+        <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
+       </div>
+    </li>
+</ul>
+</div>
+</section>
+
+<!--Section6-->
+
+<section class="loved" id="loved">
+<div class="container loved_container">
+<h2 class="loved-title"><span>ВІДГУКИ</span> КЛІЄНТІВ</h2>
+<ul class="loved-list">
+<li class="loved-list-item">
+    <img class="loved-image" src="img/lovers/lovers_1.jpg" alt="Victoria Dobrzhanska"/>
+    <h3 class="loved-subtitle">Вікторія Доброжанська</h3>
+    <p class="loved-text">Замовляла білизну вже 10 разів, все ідеально. Рекомендую! Найкращі майстри </p>
+</li>
+<li class="loved-list-item">
+    <img class="loved-image" src="img/lovers/lovers_2.jpg" alt="Nazar Babenko"/>
+    <h3 class="loved-subtitle">Ніна Красива</h3>
+    <p class="loved-text">Ціна відповідає якості. Обожнюю ваші матеріали. Купуйте в перевіреному магазині.</p>
+</li>
+<li class="loved-list-item">
+    <img class="loved-image" src="img/lovers/lovers_3.jpg" alt="Olena Kampusch"/>
+    <h3 class="loved-subtitle">Світлана Компотна</h3>
+    <p class="loved-text"> Брала тут білизну для всієї родини. Чоловіку стрінги дуже сподобались, тільки їх тепер носить.</p>
+</li>
+</ul>
+<button type="button" class="loved-item-btn">Leave a review</button>
+
+
+</div>
+</section>
+</main>
+
+<footer class="footer" id="footer">
+<div class="container footer-container">
+
+    <div class="footer-top">
+        <div class="footer-heading-block">
+    <p class="footer-heading"><span>Гарна </span> білизна врятує поганий день.</p>
+        </div>
+
+    <div class="footer-soc-block">
+    <p class="footer-subtitle">Замовляй тут</p>
+    <ul class="footer-soc-list">
+
+        <li class="footer-soc-item"> 
+            <a class="footer-soc-link" 
+            href="https://www.instagram.com/foxy.ylady?igsh=MTB1dXkzYXNrNWNuOQ==" target="_blank" 
+            rel="noopener noreferrer">
+instagram
+        </a>
+        </li>
+    
+        <li class="footer-soc-item"> 
+            <a class="footer-soc-link" 
+            href="https://www.instagram.com/aniutalisanova?igsh=YzU1OXBubG5jbGVu" target="_blank" 
+            rel="noopener noreferrer">
+telegram
+        </a>
+        </li>
+    
+    </ul>
+</div>
+
+<div class="footer-contacts-block" >
+    <p class="footer-subtitle">Звʼязатись із нами:</p>
+    <address class="footer-address">
+    <ul class="footer-address-list">
+        <li class="footer-address-item"><a class="footer-address-link" href="trl:+380970910562">+380 (97) 091 05 62</a></li>
+    <li class="footer-address-item"><a class="footer-address-link" href="mailto:foxylady9@gmail.com"> foxylady9@gmail.com</a></li>
+    </ul>
+    </address>
+</div>
+    </div>
+
+    <div class="footer-bottom">
+    <nav class="footer-navigation">
+       <ul class="footer-menu-list">
+    <li class="footer-menu-item"> 
+        <a class="footer-menu-link" href="">Foxy</a>
+    </li>
+    <li class="footer-menu-item">
+        <a class="footer-menu-link" href="">Як ми створюємо?</a>
+    </li>
+    <li class="footer-menu-item">
+        <a class="footer-menu-link" href="">Відгуки</a>
+    </li>
+       </ul>
+
+       <ul class="footer-menu-list-mob">
+        <li class="footer-menu-item"> 
+            <a class="footer-menu-link" href="/">Home</a>
+        </li>
+        <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#made">Як ми створюємо?</a>
+        </li>
+        <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#models">Моделі</a>
+        </li>
+        <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#sellers">Популярні</a>
+        </li>
+        <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#loved">Відгуки</a>
+        </li>
+           </ul>
+    </nav>
+<!---
+    <form class="footer-form">
+
+        <input type="email" name="footer-email" 
+        class="footer-input" placeholder="Enter your email"
+        aria-label="footer input"> 
+        <button type="submit" class="footer-subscribe-btn" >Subscribe</button> 
+    </form>-->
+    </div>
+</div>
+</footer>
+
+<!----BACKDROP----->
+<div class="backdrop">
+    <div class="modal">
+<button type="button" class="modal-close"> X </button>
+<p class="modal-title"> LEAVE A REVIEW ABOUT <span> OUR CHOCOLATE </span> </p>
+<form class="modal-form">
+
+   <div>
+<label for="user-name" class="modal-label">Name</label>
+<div class="modal-input-wrap">
+<input 
+type="text" 
+required
+name="user-name" 
+class="modal-input" 
+placeholder="name"
+id="user-name"/>
+<svg class="modal-icon" width="24" height="24" >
+    <use href=""></use>
+</svg>
+</div>
+</div> 
+
+<div>
+<label for="email" class="modal-label">Email</label>
+<div class="modal-input-wrap">
+<input 
+type="email" 
+required
+name="user-email" 
+class="modal-input"
+placeholder="email"
+id="email"/>
+<svg class="modal-icon" width="24" height="24" >
+    <use href=""></use>
+</svg>
+</div>
+</div>
+
+<div>
+<label for="tel" class="modal-label">Phone number</label>
+<div class="modal-input-wrap">
+<input 
+type="tel" 
+required
+name="user-tel" 
+class="modal-input"
+placeholder="tel"
+id="tel"/>
+<svg class="modal-icon" width="24" height="24" >
+    <use href=""></use>
+</svg>
+</div>
+</div>
+
+<label for="user-comment" class="modal-label"> Comment
+<textarea name="user-comment" 
+id="user-comment" 
+class="modal-text"
+placeholder="Enter text"></textarea>
+</label>
+
+<div class="modal-field"> 
+    <input type="checkbox" name="policy" id="policy" 
+    class="check-input visually-hidden" value="true"/>
+    <label class="check-text" 
+    for="policy"> <span> <svg class="check-icon" width="10" height="10" >
+        <use href=""></use>
+    </svg></span> I accept the terms and conditions of the 
+    <a href=""> Privacy Policy </a> </label>
+</div>
+
+<button type="submit">Send</button>
+</form>    
+</div>
+</div>
+<script type="module" src="./main.js"></script>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+</html>
+
